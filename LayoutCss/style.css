@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+}
+.top{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+.container{
+    width: 1170px;
+    margin:0 auto;
+}
+.giohang{
+    padding-top: 7px;    
+    float: right;
+    color: white;
+    text-align: center;
+}
+.giohang p{
+    margin-top: 5px;
+    padding: 0;   
+}
+.giohang a:link, .giohang a:visited {
+    color: white;
+    text-decoration: none;   
+}
+.logo{
+    text-align: center;
+    border-bottom: solid 1px #DEDEDE;
+}
+.logo a:link , .logo a:visited{
+    color: black;
+    text-decoration: none;    
+}
+.menu{
+    height: 70px;
+}
+#divleft{
+    /* background-color: red; */
+    width: 70%;
+    height: 50px;
+    float: left;
+    margin-top: 11px;
+}
+#divright{
+    /* background-color: aqua; */
+    width: 30%;
+    height: 50px;
+    float: left;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+#divleft ul li{
+    float: left;
+    list-style-type: none;
+    font-size: 17px;
+    padding: 0 50px 0 0px;
+}
+#divleft ul li a{
+    text-decoration: none;
+    color: black;
+}
+#divleft ul li a:hover{
+    color: aqua;
+}
+#divright form{
+    float: right;
+}
+#containInp{
+    position: relative;
+}
+#btnSearch{
+    background: url(images/search.png) no-repeat 0 0;
+    padding: 0px 14px 0px 19px;
+    border: 0;
+    cursor: pointer;
+    padding-bottom: 3px;
+    position: absolute;
+    right: -7px;
+    top: 10px;   
+}
+
+#inpSearch{
+    border: outset 1px;
+    padding: 10px;
+}
+.about{
+    padding-top: 50px;
+    height: 250px ;
+}
+.anhtieubieu{
+    float: left;
+    padding-right: 40px;
+}
+.sanpham1{
+    margin-top: 100px;
+    border: solid 1px grey;
+    float: left;
+    padding: 0 55px;
+    margin: 100px 20px 0px 19px;
+}
+.txtsp1{
+    padding: 30px 0 12px 0;
+    
+}
+.txtsp1tren{
+    font-weight: 400;
+}
+.txtsp1duoi{
+    font-size:13px ;
+    color: #999C9F;
+}
+.giapsp1{
+    padding-bottom: 35px;
+}
+.hinh1{
+    margin-top: 30px;
+    text-align: center;
+}
+.info{
+    width: 25%;
+    height: auto;
+    float:  left;
+}
+.info ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.info ul li a{
+    text-decoration: none;   
+}
+.info ul li a:link, .info ul li a:visited{
+    color: gray;
+}
+.info ul li a:hover{
+    color: #abbaea;
+}
+span.social
+{
+    height: 34px;
+    width: 34px;
+    display: inline-block;
+    background-image: url(/images/s-icons.png);
+}
+#facebook{    
+    background-position: 0 0;
+}
+#twiter{
+    background-position:-34px 0;
+}
+#google {
+    background-position: -68px 0;
+}
+.txtsocial{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+    margin-top: -25px;
+}
+.informationitem{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.phanvung{
+    width: 100%;
+}
+.childfooter{
+    width: 50%;
+    float: left;
+}
+.txtrightfooter{
+    padding-left: 156px;
+    
+    font-size: 14px;
+}
+#inpfooter{
+    padding: 5px 35px 5px 5px;
+    margin-right: 13px;
+}
+.footer{
+    height: 100%;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+#btnfooter{
+    padding: 5px 30px;
+}
+#txtinpfooter{
+    padding: 5px 50px 5px 5px;
+    margin-right: 10px;
+}
